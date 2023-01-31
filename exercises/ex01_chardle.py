@@ -41,12 +41,11 @@ if word[4] == str(character):
     counter = counter + 1
 
 
-if counter == int(0)
-    print("no instances of " + (character) + " found in "+ (word)))
-
-if counter != int(1):
+if counter == int(0):
+    print("no instances of " + (character) + " found in "+ (word))
+else:
+    counter != int(1)
     print(str(counter) + " instances of " + (character) + " found in " + (word))
-
-if counter == int(1):
+    counter == int(1)
     print(str(counter) + " instance of " + (character) + " found in " + (word))
 
