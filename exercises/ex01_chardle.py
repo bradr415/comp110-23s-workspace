@@ -16,7 +16,7 @@ if int(len(character)) != 1:
 
 counter = int(0)
 
-print("searching for " + str(character))
+print("searching for " + str(character) + " in " + str(word))
 
 if word[0] == str(character):
     print(str(character) + " found at index 0")
@@ -41,9 +41,12 @@ if word[4] == str(character):
     counter = counter + 1
 
 
+if counter == int(0)
+    print("no instances of " + (character) + " found in "+ (word)))
 
 if counter != int(1):
     print(str(counter) + " instances of " + (character) + " found in " + (word))
 
 if counter == int(1):
     print(str(counter) + " instance of " + (character) + " found in " + (word))
+
